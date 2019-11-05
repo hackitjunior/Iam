@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Julius+Sans+One&display=swap');
+
+// Your variable overrides
+$body-bg: #f2f2f2;
+$body-color: #52616b;
+$body-color: #000;
+$font-family-base: Julius Sans One, sans-serif;
+$headings-font-family: Hind, sans-serif;
+
+// color palette
+$primary: #004c8c;
+$secondary: #8a8a8a;
+
+$primary: #222831;
+$secondary: #393e46;
+$dark: #f96d00;
+$white: #fff;
+$navy: #353b5f;
+$gray: #f6f6f6;
+
+$orange: #f96d00;
+$nav-pills-link-active-bg: $dark;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.side-left{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 30%;
+}
+
+.side-right{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 70%;
+}
+
+@include media-breakpoint-down(sm) {
+    .side-left{
+        position: relative;
+        width: 100%;
+    }
+
+    .side-right{
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+.bg-dark{
+    background: #00818a;
+    //background-image: url(../img/bg_2.gif);
+}
+
+.bg-secondary{
+    background: #c9d6df;
+}
+
+section{
+    min-height: 100vh;
+}
+
+#sidebar a{
+    color: #fff;
+}

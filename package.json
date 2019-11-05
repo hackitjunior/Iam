@@ -1,0 +1,21 @@
+{
+  "name": "sttaton-theme",
+  "version": "1.0.0",
+  "description": "Tema para el sitio de sttaton",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Silva G.",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
