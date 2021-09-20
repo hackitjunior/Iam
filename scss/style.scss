@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Hind|Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
+
+// Palette reference
+// https://coolors.co/012a4a-013a63-01497c-014f86-2a6f97-2c7da0-468faf-61a5c2-89c2d9-a9d6e5
 
 // Your variable overrides
 $body-bg: #f2f2f2;
 $body-color: #52616b;
 $body-color: #000;
-$font-family-base: Julius Sans One, sans-serif;
-$headings-font-family: Hind, sans-serif;
+$font-family-base: Roboto, sans-serif;
+$headings-font-family: Oswald, sans-serif;
 
 // color palette
 $primary: #004c8c;
 $secondary: #8a8a8a;
 
-$primary: #222831;
+$primary: #012a4a;
 $secondary: #393e46;
-$dark: #f96d00;
+$dark: #014f86;
 $white: #fff;
 $navy: #353b5f;
 $gray: #f6f6f6;
 
-$orange: #f96d00;
+$orange: #014f86;
 $nav-pills-link-active-bg: $dark;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
